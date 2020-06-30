@@ -13,7 +13,7 @@
 反正电脑版的不会弄,涉及参数破解,eleven那个我太菜了搞不出来,看了一下别人之前有试过模拟手机h5页面打开也能拿到数据,也算是退而求其次吧
 1.post请求拿到的数据是json的,用久了get可能不是很敏感,写了xpath才发现不对
 2.酒店回复那个键'feedbackList',如果酒店不回复的话,键都不存在的,试过在if后面判断,发现都不进if,所以用这样的方式解决,也算有效果吧
-
+3.write是写入str字符串,writelines是写入列表,注意区分
 
 
   ![图4](https://github.com/yigiuwoligiao/xiecheng-DataXgroup/blob/master/img/%E9%85%92%E5%BA%97%E4%B8%8D%E5%9B%9E%E5%A4%8D.png)
